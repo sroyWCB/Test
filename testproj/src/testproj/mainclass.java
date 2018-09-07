@@ -7,7 +7,7 @@ public class mainclass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "D:\\SELENIUM\\DRIVERS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.google.co.in");
 	}
