@@ -9,7 +9,7 @@ public class mainclass {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
-		d.get("https://www.google.co.in");
+		d.get("https://charbroil.com");
 	}
 
 }
